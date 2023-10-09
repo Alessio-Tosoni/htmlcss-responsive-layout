@@ -1,0 +1,87 @@
+/* flex prop */
+.flex{display: flex;}
+.clmn{flex-direction: column;}
+.wrp{flex-wrap: wrap;}
+
+.jc-sb{justify-content: space-between;}
+.jc-sa{justify-content: space-around;}
+.jc-cen{justify-content: center;}
+.jc-fs{justify-content: flex-start;}
+
+.ai-cen{align-items: center;}
+.ai-fs{align-items: flex-start;}
+.ai-fe{align-items: flex-end;}
+.ai-bas{align-items: baseline;}
+.as-cen{align-self: center;}
+.as-fs{align-self: flex-start;}
+/* padding / margin*/
+.p-8{padding: 8px;}
+.p-12{padding: 12px;}
+.p-16{padding: 16px;}
+.p-24{padding: 24px;}
+.p-30{padding: 30px;}
+.p-60{padding: 60px;}
+.p-120{padding: 120px;}
+.p-180{padding: 180px;}
+.pb-12{padding-bottom: 12px;}
+.pb-24{padding-bottom: 24px;}
+.pb-32{padding-bottom: 32px;}
+.pt-8{padding-top: 8px;}
+.pt-24{padding-top: 24px}
+.pt-60{padding-top: 60px;}
+.pl-8{padding-left: 8px;}
+.pl-12{padding-left: 12px;}
+.pl-16{padding-left: 16px;}
+.pr-12{padding-right: 12px;}
+.pr-16{padding-right: 16px;}
+.po-12{padding: 0 12px;}
+.mo-20{margin-left: 20px; margin-right: 20px;}
+.mb-30{margin-bottom: 30px;}
+.mb-60{margin-bottom: 60px;}
+.mb-160{margin-bottom: 160px;}
+.mt-30{margin-top: 30px ;}
+.mt-75{margin-top: 75px;}
+.mt-90{margin-top: 90px;}
+.ml-20{margin-left: 20px;}
+.mr-20{margin-right: 20px;}
+.pc1{padding: 20px 16px;}
+.pc2{padding: 12px 24px;}
+.pc3{padding-right: -12px; padding-left: -12px;}
+/* color */
+.c-wht{color: white;}
+.c-blk{color: black;}
+.c-gry{color: grey  ;}
+.c-bl{color: blue;}
+.bg-cs1{background-color: #B5DDFF;}
+.bg-cs2{background-color: #9792E4;}
+.bg-bl{background-color: blue;}
+.bg-blk{background-color: black;}
+.bg-wht{background-color: white;}
+.bor-gry{border: 1px solid grey;}
+/* font */
+.txt-n{text-decoration: none;}
+.txt-cen{text-align: center;}
+.fs-32{font-size: 32px;}
+.fs-24{font-size: 24px;}
+.fs-20{font-size: 20px;}
+/* position */
+.rel{position: relative;}
+.abs{position: absolute;}
+.fix{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+/* width */
+.w40{width: 40%;}
+.w50{width: 50%;}
+.w60{width: 60%;}
+.w80{width: 80%;}
+.w100{width: 100%;}
+
+.h100{height: 100%;}
+
+/* img */
+.cov{background-size: cover;}
