@@ -11,7 +11,9 @@
 
 .debug{min-height: 300px;}
 
-.img-rnd{border-radius:50%;}
+.img-rnd{
+    border-radius:50%;
+}
 .btn{
     background-color: #0084FD;
     border: 1px solid #0084FD;
@@ -23,3 +25,52 @@ header{
     background-color:#0084FD;
     color: white;
 }
+/* media */
+
+/* tablet */
+@media screen and (min-width:768px) {
+    /* intro */
+    .cards-c{display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .big-card{width: calc(60% - 16px);
+    margin-right: 20px;
+    padding: 25px;
+ }
+    .card{width: calc(30% - 16px);
+    margin-right:  20px;
+    padding:25px;
+}   
+    
+
+    /* testimonials */
+
+    .testimonial { 
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: flex-start;
+
+    }
+    .test1 {width: 30%;} 
+    .test2 { width: 65%;}
+}  
+
+
+
+
+
+
+
+    /* desktop */
+
+@media screen and (min-width:992px) {
+
+    /* planning */
+
+    /* .plans{flex-direction: row;
+    }
+    .plan{width: 48%;
+    margin-right: 12px;} */
+} 
