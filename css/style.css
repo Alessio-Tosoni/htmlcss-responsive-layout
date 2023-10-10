@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{font-family: 'Open Sans', sans-serif;}
 .container{
     width: 80%;
     margin: auto;
@@ -20,29 +20,43 @@
     border-radius: 12px;
     color: white;
 }
+.btn-a{
+    background-color: white;
+    border: 1px solid white;
+    border-radius:30px;
+    color: #0084FD;
+}
 
 header{
     background-color:#0084FD;
     color: white;
 }
+.cards-c h3,p{padding: 16px 8px;}
+
+footer{background-color: #333333;}
+
 /* media */
 
 /* tablet */
 @media screen and (min-width:768px) {
     /* intro */
-    .cards-c{display: flex;
+    .cards-c{
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .big-card{width: calc(60% - 16px);
-    margin-right: 20px;
-    padding: 25px;
- }
-    .card{width: calc(30% - 16px);
-    margin-right:  20px;
-    padding:25px;
-}   
+    
+    .big-card{
+        width: calc(65% - 16px);
+        margin-right: 20px;
+        padding: 25px;
+    }
+    .card{
+        width: calc(32% - 16px);
+        margin-right:  20px;
+        padding:25px;
+    }   
     
 
     /* testimonials */
@@ -54,8 +68,30 @@ header{
 
     }
     .test1 {width: 30%;} 
-    .test2 { width: 65%;}
-}  
+    .test2 { 
+        width: 65%;
+        align-self: center;
+    }
+    /* benefits */
+    .benefits-con{justify-content: space-between;    
+    }  
+    .benefits{width:48%}
+    /* about-us */
+    .abt-us{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .col1{width: 55%;}
+    .col2{
+        width: 40%;
+        align-self: flex-start;
+    }
+
+}
+
+    
+
 
 
 
